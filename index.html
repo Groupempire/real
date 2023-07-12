@@ -135,7 +135,7 @@
     .then(txt => {
       const sheet = txt.split("\r\n").map(r => r.split('\t'));
       let html = `<table class="table table-striped">`;
-      html += `<thead><tr><th>Date & time </th><th>Name</th><th>number</th><th>budget</th><th>location</th><th>requirements</th><th>source</th></tr></thead>`;
+      html += `<thead style="color:yellow;" ><tr><th>Date & time </th><th>Name</th><th>number</th><th>budget</th><th>location</th><th>requirements</th><th>source</th></tr></thead>`;
       html += `<tbody>`;
       for (let i = sheet.length - 1; i > 0; i--) {
         html += `<style>p{color:;} 
@@ -187,7 +187,7 @@
         </a>
         
         
-        <a href="https://www.instagram.com/harish.56q/">
+        <a href="https://www.instagram.com/harish56q/">
              <img src="https://www.unipile.com/wp-content/uploads/2022/09/logo_instagram.png" alt="">
         </a>
         </h4>
